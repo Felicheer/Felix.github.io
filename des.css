@@ -1,0 +1,47 @@
+body{
+    background-color: rgb(31, 31, 31);
+    color: white;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center, center;
+    font-family: arial;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+#header{
+    position: relative;
+    text-shadow: 1px 5px 1px black;
+    top: -5%;
+}
+
+#links{
+    position: relative;
+    text-decoration: none;
+}
+
+
+#body{
+    align-items: center;
+    position: fixed;
+    top: 55%;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    text-shadow: 1px 5px 1px black;
+}
+
+a:hover{
+    cursor: pointer;
+    text-shadow: 1px 4px 1px black;
+}
+
+a:active{
+    text-shadow: 1px -1px 1px black;
+    color: white;
+}
